@@ -8,6 +8,9 @@ body{
   color: white;
   text-align: center;
 }
+body::-webkit-scrollbar{
+  width: 0px;
+}
 #NameInput,#TextoInput,#ImageInput{
   width: 80%;
   text-align: center;
@@ -58,7 +61,7 @@ body{
   text-shadow: 2px 2px 2px #121212;
 }
 .Table{
-  border: 5px solid whitesmoke;
+  border: 5px solid goldenrod;
   border-radius: 20px;
   width: 40%;
   margin: auto;
@@ -80,9 +83,9 @@ body{
   word-wrap: break-word;
 }
 #ContainerTa > dir > img{
-  border: 2px solid goldenrod;
+  border: 2px solid gold;
   border-radius: 20px;
-  width: 30em;
+  width: 80%;
 }
 .delete-btn{
   border: 2px solid white;
